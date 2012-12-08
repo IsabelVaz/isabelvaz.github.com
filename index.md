@@ -7,9 +7,9 @@ tagline: Labores caseiros albicastrenses
 
 ## Ultimos labores
 
-<div class="posts">
+<div class="posts" style="clear: both">
   {% for post in site.posts %}
-    <div class="post">
+    <div class="post" style="float: left">
       <a href="{{ BASE_PATH }}{{ post.url }}" ><img width="300" height="200" src="{{ post.img }}" alt="{{ post.title }}" /> </a>
     </div>
   {% endfor %}
