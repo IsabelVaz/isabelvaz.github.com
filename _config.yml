@@ -125,6 +125,6 @@ JB :
   # where [HELPER] is the name of the helper you are overriding.
   
   prose:
-  	metadata:
-    	"_posts/gatinhos": |
-        	img: ""
+    metadata:
+      "_posts/gatinhos": |
+        img: ""
